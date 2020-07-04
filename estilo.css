@@ -26,6 +26,10 @@
   background-image: url(img/6.jpg);
 }
 
+#bannerequipo {
+  background-image:
+}
+
 #bannertema, #bannerequipo, #bannercontacto {
   height: 320px;
   width: 100%
