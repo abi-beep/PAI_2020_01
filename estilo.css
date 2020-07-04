@@ -40,3 +40,8 @@ body {
   padding: 0px;
   font-family: 'Open Sans', sans-serif;
 }
+
+li {
+  text-decoration: none;
+  color: inherit;
+}
