@@ -1,6 +1,12 @@
 /* Importar fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
+@font-face {
+    font-family: "the_black_box";
+    src: url("fonts/the_black_box.woff") format("woff");,
+    font-weight: normal;
+    font-style: normal;
+}
 /* Sistema de grillas */
 * {box-sizing: border-box;}
 .row::after {content: ""; clear: both; display: table;}
@@ -19,7 +25,10 @@
 .col-12 {width: 100%;}
 
 /* Menu */
-
+h1 {
+  font-family: "the_black_box";
+  font-size: 50px;
+}
 
 /* Banners */
 #bannertema {
